@@ -13,9 +13,9 @@
       "items": {
         "type": "object",
         "properties": {
-          "name": {
+          "label": {
             "type": "string",
-            "description": "Name of the axis"
+            "description": "Axis label"
           },
           "type": {
             "type": "string",
