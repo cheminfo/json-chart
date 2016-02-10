@@ -53,7 +53,7 @@
           "type": {
             "type": "string",
             "description": "Type of the serie",
-            "enum": ["line", "scatter"]
+            "enum": ["line", "scatter", "bar"]
           },
           "x": {
             "type": "array",
