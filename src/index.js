@@ -20,9 +20,14 @@ function check(value, options) {
                     type = '1DY'; // by default we say it is just Y points ... dangerous !
                 }
             }
+        } else if (typeof value==='object') {
+            if (value.x || value.y) {
+                type = 'XY';
+            }
         }
     }
-
+    
+    
     var chart;
 
     switch (type) {
@@ -31,6 +36,11 @@ function check(value, options) {
                 data: {
                     y: value
                 }
+            };
+            break;
+        case 'XY':
+            chart = {
+                data: value
             };
             break;
         case '1DXY':
