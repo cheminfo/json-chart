@@ -33,6 +33,10 @@
           "max": {
             "type": "number",
             "description": "Maximum value for this axis"
+          },
+          "flip": {
+            "type": "boolean",
+            "description": "Are the axis values in reverse order?"
           }
         }
       }
@@ -49,7 +53,7 @@
           "type": {
             "type": "string",
             "description": "Type of the serie",
-            "enum": ["line", "scatter"]
+            "enum": ["line", "scatter", "bar"]
           },
           "x": {
             "type": "array",
