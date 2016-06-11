@@ -94,33 +94,43 @@
           },
           "style": {
             "type": "array",
-            "description": "Styling of each point of the serie",
+            "description": "Styling of the points of the serie",
             "items": {
               "type": "object",
               "description": "An sub-element of style"
               "items": {
-                "shape": {
-                  "type": "string",
-                  "description": "Shape of the point (square, round, cross, ...)""
+                "styleName": {
+                  "type": "string"
                 },
-                "zoom": {
-                  "type": "number",
-                  "description": "Defines the size of the point"
-                },
-                "lineWidth": {
-                  "type": "number",
-                  "description": "Width of the line defining the shape"
-                },
-                "lineColor": {
-                  "type": "string",
-                  "description": "Color of the line defining the shape"
-                },
-                "fillColor": {
-                  "type": "string",
-                  "description": "Color of the shape"
-                },
-                "points": {
-                  "description": "Points for which this style is valid"
+
+                "styles": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "shape": {
+                      "type": "string",
+                      "description": "Shape of the point (square, round, cross, ...)""
+                    },
+                    "zoom": {
+                      "type": "number",
+                      "description": "Defines the size of the point"
+                    },
+                    "lineWidth": {
+                      "type": "number",
+                      "description": "Width of the line defining the shape"
+                    },
+                    "lineColor": {
+                      "type": "string",
+                      "description": "Color of the line defining the shape"
+                    },
+                    "fillColor": {
+                      "type": "string",
+                      "description": "Color of the shape"
+                    },
+                    "points": {
+                      "description": "Points for which this style is valid"
+                    }
+                  }
                 }
               }
             }
