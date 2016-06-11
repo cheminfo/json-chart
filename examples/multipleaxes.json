@@ -3,7 +3,7 @@
   "axis": [
     { "type": "top", "label": "Top 1" },
     { "type": "top", "label": "Top 2" },
-    { "type": "bottomv, "label": "Bottom 1" },
+    { "type": "bottom", "label": "Bottom 1" },
     { "type": "bottom", "label": "Bottom 2" },
     { "type": "left", "label": "Left 1" },
     { "type": "left", "label": "Left 2" },
