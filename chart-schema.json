@@ -93,17 +93,24 @@
             "description": "Index of the z axis in the axis array"
           },
           "style": {
-            "type": "object",
+            "type": "array",
             "description": "Stylying of the serie",
             "items": {
-              "color": {
-                "type": "string",
-                "description": "The color of the line, the scatter points, or the bar"
-              },
-              "lineWidth": {
-                "type": "string",
-                "description": "If the serie is a line, its width. Otherwise, ignored"
-              }   
+              "type": "object",  
+              "items": {
+                "styleName": {
+                  "type": "string",
+                  "description": "The name of the style"
+                },
+                "color": {
+                  "type": "string",
+                  "description": "The color of the line, the scatter points, or the bar"
+                },
+                "lineWidth": {
+                  "type": "string",
+                  "description": "If the serie is a line, its width. Otherwise, ignored"
+                }   
+              }
             }
           }
         }
