@@ -9,8 +9,7 @@
     { "type": "left", "label": "Left 2" },
     { "type": "right", "label": "Right 1" },
     { "type": "right", "label": "Right 2" },
-    
-  ]
+  ],
   "data": [
     { "x": [1,2,3,4,5], "y": [1,2,3,2,1], "xAxis": 0, "yAxis": 0 },
     { "x": [1,2,3,4,5], "y": [1,2,3,2,1], "xAxis": 1, "yAxis": 0 },
