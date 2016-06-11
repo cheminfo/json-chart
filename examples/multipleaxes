@@ -1,0 +1,24 @@
+{
+  "title": "My chart",
+  "axis": [
+    { type: 'top', label: 'Top 1' },
+    { type: 'top', label: 'Top 2' },
+    { type: 'bottom', label: 'Bottom 1' },
+    { type: 'bottom', label: 'Bottom 2' },
+    { type: 'left', label: 'Left 1' },
+    { type: 'left', label: 'Left 2' },
+    { type: 'right', label: 'Right 1' },
+    { type: 'right', label: 'Right 2' },
+    
+  ]
+  "data": [
+    { "x": [1,2,3,4,5], "y": [1,2,3,2,1], xAxis: 0, yAxis: 0 },
+    { "x": [1,2,3,4,5], "y": [1,2,3,2,1], xAxis: 1, yAxis: 0 },
+    { "x": [1,2,3,4,5], "y": [1,2,3,2,1], xAxis: 2, yAxis: 0 },
+    { "x": [1,2,3,4,5], "y": [1,2,3,2,1], xAxis: 3, yAxis: 0 },
+    { "x": [1,2,3,4,5], "y": [1,2,3,2,1], xAxis: 0, yAxis: 4 },
+    { "x": [1,2,3,4,5], "y": [1,2,3,2,1], xAxis: 0, yAxis: 5 },
+    { "x": [1,2,3,4,5], "y": [1,2,3,2,1], xAxis: 0, yAxis: 6 },
+    { "x": [1,2,3,4,5], "y": [1,2,3,2,1], xAxis: 0, yAxis: 7 }
+  ]
+}
