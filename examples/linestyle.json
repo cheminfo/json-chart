@@ -2,7 +2,13 @@
   "title": "My chart",
   "data": [
     {
-"style": [ { "styleName": "unselected", "color": "red", "lineWidth": 3} ],
+      "style": [ 
+        { 
+          "styleName": "unselected", 
+          "color": "red", 
+          "lineWidth": 3,
+          "lineStyle": 4
+        } ],
       "x": [
         1,
         2,
