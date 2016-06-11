@@ -91,6 +91,20 @@
           "zAxis": {
             "type": "number",
             "description": "Index of the z axis in the axis array"
+          },
+          "style": {
+            "type": "object",
+            "description": "Stylying of the serie",
+            "items": {
+              "color": {
+                "type": "string",
+                "description": "The color of the line, the scatter points, or the bar"
+              },
+              "lineWidth": {
+                "type": "string",
+                "description": "If the serie is a line, its width. Otherwise, ignored"
+              }   
+            }
           }
         }
       }
