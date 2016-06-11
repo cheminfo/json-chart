@@ -107,8 +107,11 @@
                   "description": "The color of the line, the scatter points, or the bar"
                 },
                 "lineWidth": {
-                  "type": "string",
+                  "type": "number",
                   "description": "If the serie is a line, its width. Otherwise, ignored"
+                },
+                "lineStyle": {
+                  "description": "Some parameter describing further styling of the line"
                 }   
               }
             }
