@@ -85,18 +85,18 @@
             "items": {
               "oneOf": [{
                 "type": "number",
-                "description": "Symmetrical error bars"
+                "description": "Symmetrical X error bars"
               }, {
                 "type": "array",
                 "items": {
                   "oneOf": [{
                     "type": "number",
-                    "description": "Symmetrical error bars"
+                    "description": "Asymmetrical X error bars : [left, right]"
                   }, {
                     "type": "array",
                     "items": {
                       "type": "number",
-                      "description": "Asymmetrical error bards"
+                      "description": "Asymmetrical X error bars, many zones [[left1,right1],[left2,right2],...]"
                     }
                   }]
                 }
@@ -109,18 +109,18 @@
             "items": {
               "oneOf": [{
                 "type": "number",
-                "description": "Symmetrical error bars"
+                "description": "Symmetrical Y error bars"
               }, {
                 "type": "array",
                 "items": {
                   "oneOf": [{
                     "type": "number",
-                    "description": "Symmetrical error bars"
+                    "description": "Asymmetrical Y error bars : [top, bottom]"
                   }, {
                     "type": "array",
                     "items": {
                       "type": "number",
-                      "description": "Asymmetrical error bards"
+                      "description": "Asymmetrical Y error bars, many zones [[top1,bottom1],[top2,tottom2],...]"
                     }
                   }]
                 }
