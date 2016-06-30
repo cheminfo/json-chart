@@ -81,48 +81,96 @@
           },
           "errorX": {
             "type": "array",
-            "description": "Errors in x",
+            "description": "Symmetrical error bars X",
             "items": {
               "oneOf": [{
                 "type": "number",
-                "description": "Symmetrical X error bars"
+                "description": "One level symmetrical X error bars"
               }, {
                 "type": "array",
                 "items": {
-                  "oneOf": [{
-                    "type": "number",
-                    "description": "Asymmetrical X error bars : [left, right]"
-                  }, {
-                    "type": "array",
-                    "items": {
-                      "type": "number",
-                      "description": "Asymmetrical X error bars, many zones [[left1,right1],[left2,right2],...]"
-                    }
-                  }]
+                  "type": "number",
+                  "description": "Multi-level symmetrical X error bars : [level1, level2, ...]"
+                }
+              }]
+            }
+          },
+          "errorXleft": {
+            "type": "array",
+            "description": "Asymmetrical left error bars X",
+            "items": {
+              "oneOf": [{
+                "type": "number",
+                "description": "One level asymmetrical X error bars"
+              }, {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "description": "Multi-level asymmetrical X error bars : [level1, level2, ...]"
+                }
+              }]
+            }
+          },
+          "errorXright": {
+            "type": "array",
+            "description": "Asymmetrical right error bars X",
+            "items": {
+              "oneOf": [{
+                "type": "number",
+                "description": "One level asymmetrical X error bars"
+              }, {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "description": "Multi-level asymmetrical X error bars : [level1, level2, ...]"
                 }
               }]
             }
           },
           "errorY": {
             "type": "array",
-            "description": "Errors in y",
+            "description": "Symmetrical error bars Y",
             "items": {
               "oneOf": [{
                 "type": "number",
-                "description": "Symmetrical Y error bars"
+                "description": "One level symmetrical Y error bars"
               }, {
                 "type": "array",
                 "items": {
-                  "oneOf": [{
-                    "type": "number",
-                    "description": "Asymmetrical Y error bars : [top, bottom]"
-                  }, {
-                    "type": "array",
-                    "items": {
-                      "type": "number",
-                      "description": "Asymmetrical Y error bars, many zones [[top1,bottom1],[top2,tottom2],...]"
-                    }
-                  }]
+                  "type": "number",
+                  "description": "Multi-level symmetrical Y error bars : [level1, level2, ...]"
+                }
+              }]
+            }
+          },
+          "errorYtop": {
+            "type": "array",
+            "description": "Asymmetrical top error bars Y",
+            "items": {
+              "oneOf": [{
+                "type": "number",
+                "description": "One level asymmetrical Y error bars"
+              }, {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "description": "Multi-level asymmetrical Y error bars : [level1, level2, ...]"
+                }
+              }]
+            }
+          },
+          "errorYbottom": {
+            "type": "array",
+            "description": "Asymmetrical bottom error bars Y",
+            "items": {
+              "oneOf": [{
+                "type": "number",
+                "description": "One level asymmetrical Y error bars"
+              }, {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "description": "Multi-level asymmetrical Y error bars : [level1, level2, ...]"
                 }
               }]
             }
