@@ -8,6 +8,14 @@
       "type": "string",
       "description": "Chart title"
     },
+    "width": {
+      "type": "number",
+      "description": "Chart width"
+    },
+    "height": {
+      "type": "number",
+      "description": "Chart height"
+    },
     "axis": {
       "type": "array",
       "description": "List of chart axes",
@@ -27,6 +35,14 @@
           "unit": {
             "type": "string",
             "description": "Unit represented on this axis"
+          },
+          "unitWrapperBefore": {
+            "type": "string",
+            "description": "Additional string to use before the unit"
+          },
+          "unitWrapperAfter": {
+            "type": "string",
+            "description": "Additional string to use after the unit"
           },
           "min": {
             "type": "number",
