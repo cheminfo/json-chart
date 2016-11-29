@@ -15,6 +15,10 @@ describe.only('Validate various json chart format', function () {
         it('validating: '+file, function () {
             var schema=JSON.parse(schemaText);
             var result=validate(jsonChart, schema);
+            if (result.errors.length>0) {
+                console.log('--------',file);
+                console.log(result.errors);
+            }
             result.errors.length.should.equal(0);
         });
     });

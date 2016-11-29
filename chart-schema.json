@@ -72,7 +72,7 @@
           "type": {
             "type": "string",
             "description": "Type of the serie",
-            "enum": ["line", "scatter", "bar"]
+            "enum": ["line", "scatter", "bar", "box"]
           },
           "x": {
             "type": "array",
@@ -189,6 +189,51 @@
                   "description": "Multi-level asymmetrical Y error bars : [level1, level2, ...]"
                 }
               }]
+            }
+          },
+          "orientation": {
+            "type": "string",
+            "description": "Orientation used for box plot",
+            "enum": ["x","y"]
+          },
+          "boxes": {
+            "type": "array",
+            "description": "Array of information for box plot",
+            "items": {
+              "x": {
+                "type": "number",
+                "description": "x"
+              },
+              "y": {
+                "type": "number",
+                "description": "y"
+              },
+              "Q1": {
+                "type": "number",
+                "description": "Q1"
+              },
+              "Q2": {
+                "type": "number",
+                "description": "Q2"
+              },
+              "Q3": {
+                "type": "number",
+                "description": "Q3"
+              },
+              "whiskers": {
+                "type": "array",
+                "description": "Whiskers",
+                "items": {
+                  "type": "number"
+                }
+              },
+              "outliers": {
+                "type": "array",
+                "description": "Outliers",
+                "items": {
+                  "type": "number"
+                }
+              }
             }
           },
           "info": {
