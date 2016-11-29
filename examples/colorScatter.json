@@ -1,4 +1,6 @@
 {
+  "title": "My chart",
+  "data": [{
   "x": [
     1.2,
     1.15,
@@ -17562,4 +17564,4 @@
       "stroke": "transparent"
     }
   ]
-}
+}]}
