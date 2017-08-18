@@ -2,7 +2,7 @@
   "title": "My chart",
   "data": [
     {
-      "styles": [ 
+      "lineStyle": [ 
         { 
           "styleName": "unselected", 
           "color": "red", 
