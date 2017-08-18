@@ -2932,7 +2932,7 @@
     1.4744863357482245
   ],
   "type": "scatter",
-  "style": [
+  "styles": [
     {
       "fill": "#ae0051",
       "shape": "circle",
