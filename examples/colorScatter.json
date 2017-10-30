@@ -2932,10 +2932,8 @@
     1.4744863357482245
   ],
   "type": "scatter",
-  "styles": [
-    { 
-    "styleName": "unselected", 
-    "styles": [
+  "styles": {
+    "unselected": [
         {
           "fill": "#ae0051",
           "shape": "circle",
@@ -17568,5 +17566,4 @@
         } 
         ]
     }
-]
 }]}
