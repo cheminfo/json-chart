@@ -2,37 +2,32 @@
   "title": "My chart",
   "data": [
     {
-      "styles": [ 
-        { 
-          "styleName": "unselected", 
-          "styles": [ 
-            { 
-              "points": "all", 
-              "shape": 1, 
-              "zoom": 4, 
-              "lineColor": "red", 
-              "color": "green"
-            },  
-            { 
-              "points": 2,
-              "shape": 4,
-              "zoom": 8,
-              "lineColor": "darkorange", 
-              "color": "orange"
-            }
-          ]
-        }
-      ],
-      
-      "lineStyle": [ 
-        { 
-          "styleName": "unselected", 
-          "color": "red", 
-          "lineWidth": 3, 
+      "styles": {
+        "unselected": [
+          {
+            "points": "all",
+            "shape": 1,
+            "zoom": 4,
+            "lineColor": "red",
+            "color": "green"
+          },
+          {
+            "points": 2,
+            "shape": 4,
+            "zoom": 8,
+            "lineColor": "darkorange",
+            "color": "orange"
+          }
+        ]
+      },
+      "lineStyle": {
+        "unselected": {
+          "styleName": "unselected",
+          "color": "red",
+          "lineWidth": 3,
           "lineStyle": 4
         }
-      ],
-      
+      },
       "x": [
         1,
         2,
