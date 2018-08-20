@@ -2,13 +2,20 @@
   "title": "My chart",
   "data": [
     {
-      "lineStyle": [ 
-        { 
-          "styleName": "unselected", 
-          "color": "red", 
+      "type": "line",
+      "label": "First",
+      "styles": {
+        "unselected": {
+          "lineColor": "blue",
           "lineWidth": 3,
           "lineStyle": 4
-        } ],
+        },
+        "selected": {
+          "lineColor": "blue",
+          "lineWidth": 5,
+          "lineStyle": 4
+        }
+      },
       "x": [
         1,
         2,
@@ -22,6 +29,29 @@
         3,
         2,
         1
+      ]
+    },
+    {
+      "type": "line",
+      "label": "Second",
+      "style": {
+        "lineColor": "red",
+        "lineWidth": 3,
+        "lineStyle": 1
+      },
+      "x": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "y": [
+        2,
+        3,
+        4,
+        3,
+        2
       ]
     }
   ]
